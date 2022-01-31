@@ -40,7 +40,7 @@ export const PaymentProvider: FC<PaymentProviderProps> = ({ children }) => {
                 recipient,
                 amount,
                 splToken,
-                reference,
+                reference: reference && [reference, new PublicKey('3x6xBxSgKt2PQnJYFhg5WxexsvFwr9MoxF9e34Cre6hR')],
                 label,
                 message,
                 memo,
